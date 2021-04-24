@@ -1,0 +1,22 @@
+body{}
+
+section{
+    background: linear-gradient(to left top, #35a3b6, #d837dd);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.box{
+background: #fff;
+border-radius: 0.5rem;
+min-height: 420px;
+min-width: 720px;
+}
+
+input{
+    border-radius: 0.5rem;
+}
+
+.btn, .btn:hover{
+    background-color: #007f7f;
+}
