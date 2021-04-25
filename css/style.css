@@ -1,8 +1,12 @@
-body{}
-
-section{
+body{
     background: linear-gradient(to left top, #35a3b6, #d837dd);
     background-repeat: no-repeat;
+}
+*{
+    box-sizing: border-box;
+}
+
+section{
     height: 100vh;
 }
 
@@ -20,3 +24,19 @@ input{
 .btn, .btn:hover{
     background-color: #007f7f;
 }
+
+article{
+    height: 100vh;
+}
+
+.box2{
+    background: #fff;
+    border-radius: 0.5rem;
+     min-width: 200px;
+    }
+
+
+    .blocoIcones{height: 40px; border: 1px solid #ccc; border-radius: 5px;  box-sizing: border-box; display: flex;}
+    .blocoIcones input{float:left; height: 100%; border:none; border-radius: 5px; padding: 0 5px;}
+    .blocoIcones button{float:left; width: 20%; height: 100%; background: #fff; border:none; border-radius: 0 5px 5px 0; cursor: pointer;}
+    .blocoIcones button img{ width: 18px;}

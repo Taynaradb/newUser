@@ -1,8 +1,5 @@
 function onlyOne(checkbox) {
-    var checkboxes = document.getElementsByName('check')
-    checkboxes.forEach((item) => {
-        if (item !== checkbox) item.checked = false
-    })
+    
     if(male.checked == true){
         img.src = 'images/avatarm.png';
         document. getElementById('btn'). style. backgroundColor = '#ffc200';
@@ -21,6 +18,16 @@ var img = document.getElementById("profile");
 var male = document.getElementById("male");
 var female = document.getElementById("female");
 
-if(male == male.checked){
-    img.src = 'images/avatarm.png'
+
+var eye = document.getElementById("eye");
+var tipo = document.getElementById("senha");
+
+function seen(){
+    if(tipo.type == "password"){
+    tipo.type = "text";
+    eye.src = 'images/unseen.svg';
+}else{
+    tipo.type = "password";
+    eye.src = 'images/seen.svg';
+}
 }
